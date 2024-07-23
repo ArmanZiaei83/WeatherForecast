@@ -4,11 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using WeatherApp.Persistence.Context;
 using WeatherApp.Persistence.Weathers;
 using WeatherApp.Services.Contract.Base.Repositories;
-using WeatherApp.Services.Contract.RestCall;
 using WeatherApp.Services.Contract.Weathers;
-using WeatherApp.Services.RestCall;
-using WeatherApp.Services.WeatherForecasts.Handlers;
-using WeatherApp.Services.WeatherForecasts.Services;
 
 namespace WeatherApp.Persistence;
 

@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using WeatherApp.Persistence;
 using WeatherApp.Persistence.Context;
 using WeatherApp.Services;
-using WeatherApp.Services.Contract;
 using WeatherApp.WebAPI.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);

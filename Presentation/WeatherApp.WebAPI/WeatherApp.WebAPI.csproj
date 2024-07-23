@@ -17,9 +17,9 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\WeatherApp.Services.Contract\WeatherApp.Services.Contract.csproj" />
-        <ProjectReference Include="..\WeatherApp.Persistence\WeatherApp.Persistence.csproj" />
-        <ProjectReference Include="..\WeatherApp.Services\WeatherApp.Services.csproj" />
+        <ProjectReference Include="..\..\Core\WeatherApp.Services.Contract\WeatherApp.Services.Contract.csproj" />
+        <ProjectReference Include="..\..\Core\WeatherApp.Services\WeatherApp.Services.csproj" />
+        <ProjectReference Include="..\..\Infrastructure\WeatherApp.Persistence\WeatherApp.Persistence.csproj" />
     </ItemGroup>
 
 </Project>

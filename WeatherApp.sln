@@ -8,17 +8,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{82162CBD-FABE-485E-AC85-7F08273D535E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Domain", "WeatherApp.Domain\WeatherApp.Domain.csproj", "{523464F4-4D3E-43AE-93D0-906D2771BC15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core\WeatherApp.Domain", "Core\WeatherApp.Domain\WeatherApp.Domain.csproj", "{523464F4-4D3E-43AE-93D0-906D2771BC15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Services.Contract", "WeatherApp.Services.Contract\WeatherApp.Services.Contract.csproj", "{1DCB4B65-6766-4FF8-922F-9ADCDA1D44E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core\WeatherApp.Services.Contract", "Core\WeatherApp.Services.Contract\WeatherApp.Services.Contract.csproj", "{1DCB4B65-6766-4FF8-922F-9ADCDA1D44E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Persistence", "WeatherApp.Persistence\WeatherApp.Persistence.csproj", "{14B16F63-68F4-4741-A5C4-E3D100FBED94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure\WeatherApp.Persistence", "Infrastructure\WeatherApp.Persistence\WeatherApp.Persistence.csproj", "{14B16F63-68F4-4741-A5C4-E3D100FBED94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.WebAPI", "WeatherApp.WebAPI\WeatherApp.WebAPI.csproj", "{BA89D978-1CAD-435A-900C-DF76942DD4C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation\WeatherApp.WebAPI", "Presentation\WeatherApp.WebAPI\WeatherApp.WebAPI.csproj", "{BA89D978-1CAD-435A-900C-DF76942DD4C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.UnitTest", "WeatherApp.UnitTest\WeatherApp.UnitTest.csproj", "{C47260BB-4E42-48E0-8FBC-D8EDC2B17300}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test\WeatherApp.UnitTest", "Test\WeatherApp.UnitTest\WeatherApp.UnitTest.csproj", "{C47260BB-4E42-48E0-8FBC-D8EDC2B17300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Services", "WeatherApp.Services\WeatherApp.Services.csproj", "{42C4D1FC-562B-4B27-B9AB-33F9974B44D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core\WeatherApp.Services", "Core\WeatherApp.Services\WeatherApp.Services.csproj", "{42C4D1FC-562B-4B27-B9AB-33F9974B44D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
