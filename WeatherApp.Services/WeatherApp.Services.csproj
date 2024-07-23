@@ -8,12 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\WeatherApp.Services.Contract\WeatherApp.Services.Contract.csproj"/>
+        <ProjectReference Include="..\WeatherApp.Services.Contract\WeatherApp.Services.Contract.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
-        <PackageReference Include="RestSharp" Version="111.4.0"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="RestSharp" Version="111.4.0" />
     </ItemGroup>
 
 

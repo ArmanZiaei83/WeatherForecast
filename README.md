@@ -1,5 +1,1 @@
-﻿# WeatherApp Project for Exploria Tech Team
-
-### Project Layers
-- Domain
-- 
+﻿# Weather Forecast Task for Exploria

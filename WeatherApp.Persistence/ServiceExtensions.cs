@@ -24,8 +24,5 @@ public static class ServiceExtensions
 
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IWeatherRepository, WeatherRepository>();
-        services.AddScoped<IWeatherService, WeatherForecastAppService>();
-        services.AddScoped<IRestService, RestAppService>();
-        services.AddScoped<WeatherForecastDataHandler>();
     }
 }

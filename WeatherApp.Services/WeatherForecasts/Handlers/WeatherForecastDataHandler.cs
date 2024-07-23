@@ -10,6 +10,11 @@ public class WeatherForecastDataHandler
     private readonly IRestService _restService;
     private readonly IWeatherService _weatherService;
 
+    private static string Url =>
+        "https://api.open-meteo.com/v1/" +
+        "forecast?latitude=52.52&longitude=" +
+        "13.41&hourly=temperature_2m,relativehumidity_2m,windspeed_10m";
+
     public WeatherForecastDataHandler(
         IWeatherService weatherService,
         IRestService restService)
@@ -17,11 +22,6 @@ public class WeatherForecastDataHandler
         _weatherService = weatherService;
         _restService = restService;
     }
-
-    private static string Url =>
-        "https://api.open-meteo.com/v1/" +
-        "forecast?latitude=52.52&longitude=" +
-        "13.41&hourly=temperature_2m,relativehumidity_2m,windspeed_10m";
 
     public async Task<WeatherDto?> HandleAsync()
     {

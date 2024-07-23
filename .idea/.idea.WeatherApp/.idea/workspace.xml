@@ -9,17 +9,13 @@
     <list default="true" id="08c1a80a-089f-49f4-a3a5-cd5da82567b7" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Base/Repositories/IUnitOfWork.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/RestCall/IRestService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/WeatherApp.Services.Contract.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/Dto/HourlyDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/Dto/HourlyUnitDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/Dto/WeatherDto.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/IWeatherRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherApp.Services/WeatherForecasts/Handlers/WeatherForecastDataHandler.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Factory/WeatherForecastDataHandlerFactory.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Factory/WeatherForecastServiceFactory.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WeatherApp.UnitTest/UnitTests/WeatherForecasts/WeatherDataHandlerTests.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WeatherApp.WebAPI/Controllers/WeatherController.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/Entities/Hourly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Domain/Entities/Hourly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/Entities/HourlyUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Domain/Entities/HourlyUnit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/Entities/Weather.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Domain/Entities/WeatherForecast.cs" afterDir="false" />
@@ -35,20 +31,23 @@
       <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/HourlyUnitEntityMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/HourlyUnitEntityMap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/WeatherEntityMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/WeatherForecastEntityMap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/WeatherRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/WeatherForecastRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/Base/Exceptions/BadRequestException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Base/Exceptions/BadRequestException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/Base/Exceptions/NotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Base/Exceptions/NotFoundException.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/Base/Repositories/IUnitOfWork.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/RestCall/Dto/RestRequestDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/RestCall/Dto/RestRequestDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/RestCall/IRestService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/ServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/ServiceExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/WeatherApp.Service.Contracts.csproj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/Weathers/Dto/HourlyDto.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/Weathers/Dto/HourlyUnitDto.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/Weathers/Dto/WeatherDto.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/Weathers/IWeatherRepository.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Service.Contracts/Weathers/IWeatherService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/IWeatherService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Base/Exceptions/BadRequestException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Base/Exceptions/NotFoundException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/ServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services/ServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/WeatherApp.Services.Contract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/WeatherApp.Services.Contract.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/Dto/WeatherDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/Dto/WeatherForecastDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Services/RestCall/RestAppService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services/RestCall/RestAppService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Services/WeatherApp.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services/WeatherApp.Services.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.Services/WeatherForecasts/Handlers/WeatherForecastDataHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services/WeatherForecasts/Handlers/WeatherForecastDataHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.Services/Weathers/WeatherAppService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Services/WeatherForecasts/Services/WeatherForecastAppService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/HourlyDtoBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Builder/HourlyDtoBuilder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/HourlyUnitDtoBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Builder/HourlyUnitDtoBuilder.cs" afterDir="false" />
@@ -58,7 +57,7 @@
       <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/UnitTests/Weathers/WeatherAppServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.UnitTest/UnitTests/WeatherForecasts/WeatherAppServiceTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/WeatherApp.UnitTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.UnitTest/WeatherApp.UnitTest.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Controllers/UserController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Extensions/ErrorHandlerExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.WebAPI/Extensions/ErrorHandlerExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Extensions/ErrorHandlerExtensions.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.WebAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/WeatherApp.WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.WebAPI/WeatherApp.WebAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.sln" afterDir="false" />
@@ -149,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721656193529</updated>
       <workItem from="1721656196021" duration="3290000" />
-      <workItem from="1721758367490" duration="421000" />
+      <workItem from="1721758367490" duration="1208000" />
     </task>
     <servers />
   </component>
@@ -165,33 +164,33 @@
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 61% 269/695" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 62% 259/680" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 61% 269/695" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Infrastructure 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 62% 259/680" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Infrastructure 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 61% 269/695" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Infrastructure 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="WeatherApp.Persistence 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 62% 259/680" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Infrastructure 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="WeatherApp.Persistence 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 61% 269/695" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Infrastructure 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="WeatherApp.Persistence 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="WeatherApp.Persistence 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 62% 259/680" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Infrastructure 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="WeatherApp.Persistence 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="WeatherApp.Persistence 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 61% 269/695" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Infrastructure 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="WeatherApp.Persistence 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="WeatherApp.Persistence 27% 169/231" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="UnitOfWork 35% 13/20" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 62% 259/680" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Infrastructure 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="WeatherApp.Persistence 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="WeatherApp.Persistence 27% 159/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="UnitOfWork 57% 3/7" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />

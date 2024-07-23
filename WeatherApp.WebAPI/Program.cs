@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WeatherApp.Persistence;
 using WeatherApp.Persistence.Context;
+using WeatherApp.Services;
 using WeatherApp.Services.Contract;
 using WeatherApp.WebAPI.Extensions;
 
@@ -25,7 +26,6 @@ await dataContext?.Database.MigrateAsync();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-app.UseErrorHandler();
 app.UseCors();
 app.MapControllers();
 app.Run();
