@@ -9,56 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08c1a80a-089f-49f4-a3a5-cd5da82567b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WeatherApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WeatherApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/Entities/Hourly.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/Entities/HourlyUnit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/Entities/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/WeatherApp.Domain.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Context/DataContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Migrations/20240723174027_InitDb.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Migrations/20240723174027_InitDb.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Migrations/DataContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/ServiceExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/UnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/WeatherApp.Persistence.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/HourlyEntityMap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/HourlyUnitEntityMap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/WeatherForecastEntityMap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Persistence/Weathers/WeatherForecastRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Base/Repositories/IUnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/RestCall/Dto/RestRequestDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/RestCall/IRestService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/WeatherApp.Services.Contract.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/Dto/HourlyDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/Dto/HourlyUnitDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/Dto/WeatherForecastDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/IWeatherRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services.Contract/Weathers/IWeatherService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services/RestCall/RestAppService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services/ServiceExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services/WeatherApp.Services.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services/WeatherForecasts/Handlers/WeatherForecastDataHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Services/WeatherForecasts/Services/WeatherForecastAppService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/Infrastructure/EfInMemoryDatabase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Builder/HourlyDtoBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Builder/HourlyUnitDtoBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Builder/WeatherForecastDtoBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Factory/WeatherForecastDataHandlerFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/TestTools/Factory/WeatherForecastServiceFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/UnitTests/RestCall/RestAppServiceTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/UnitTests/WeatherForecasts/WeatherAppServiceTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/UnitTests/WeatherForecasts/WeatherDataHandlerTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.UnitTest/WeatherApp.UnitTest.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Controllers/WeatherController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Extensions/ApiBehaviorExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Extensions/CorsPolicyExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/WeatherApp.WebAPI.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebAPI/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/WeatherApp.Services/WeatherForecasts/Handlers/WeatherForecastDataHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/WeatherApp.Services/WeatherForecasts/Handlers/WeatherForecastDataHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/61634a892fb747f0a2b8f834a61f78b41de918/3b/5f26da0e/HttpGetAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/966d96afb2e5474d83e450f592b61f25124a0/14/c479d111/ConfigurationManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bd4df7f1d37e4978ae2e678468604cf0d000/33/d49620ec/IPipelineBehavior`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d0e9120653454bf48ec9ffa7eb07cbd41e6628/dd/5d1da96e/RelationalDatabaseFacadeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -101,9 +53,9 @@
 }</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CleanArchitecture.WebAPI">
     <configuration name="CleanArchitecture.WebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WeatherApp.WebAPI/WeatherApp.WebAPI.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="CleanArchitecture.WebAPI" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Presentation/WeatherApp.WebAPI/WeatherApp.WebAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="WeatherApp.WebAPI" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -160,6 +112,12 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.CleanArchitecture.WebAPI" />
+      <item itemvalue=".NET Launch Settings Profile.CleanArchitecture.WebAPI: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.WeatherApp.WebAPI" />
+      <item itemvalue=".NET Launch Settings Profile.WeatherApp.WebAPI: IIS Express" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -172,7 +130,7 @@
       <workItem from="1721656196021" duration="3290000" />
       <workItem from="1721758367490" duration="1208000" />
       <workItem from="1721760262418" duration="477000" />
-      <workItem from="1721760759781" duration="181000" />
+      <workItem from="1721760759781" duration="745000" />
     </task>
     <servers />
   </component>
@@ -204,5 +162,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Core/WeatherApp.Services/WeatherForecasts/Handlers/WeatherForecastDataHandler.cs</url>
+          <line>43</line>
+          <properties documentPath="A:\Arman Folder\Exploria\Sample\CleanArchitecture\Core\WeatherApp.Services\WeatherForecasts\Handlers\WeatherForecastDataHandler.cs" initialLine="43" containingFunctionPresentation="method 'GetWeatherFromRestServiceAsync'">
+            <startOffsets>
+              <option value="1286" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1346" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Core/WeatherApp.Services/WeatherForecasts/Handlers/WeatherForecastDataHandler.cs</url>
+          <line>27</line>
+          <properties documentPath="A:\Arman Folder\Exploria\Sample\CleanArchitecture\Core\WeatherApp.Services\WeatherForecasts\Handlers\WeatherForecastDataHandler.cs" initialLine="27" containingFunctionPresentation="method 'HandleAsync'">
+            <startOffsets>
+              <option value="856" />
+            </startOffsets>
+            <endOffsets>
+              <option value="916" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Presentation/WeatherApp.WebAPI/Controllers/WeatherController.cs</url>
+          <line>20</line>
+          <properties documentPath="A:\Arman Folder\Exploria\Sample\CleanArchitecture\Presentation\WeatherApp.WebAPI\Controllers\WeatherController.cs" initialLine="20" containingFunctionPresentation="method 'GetWeatherForecastData'">
+            <startOffsets>
+              <option value="524" />
+            </startOffsets>
+            <endOffsets>
+              <option value="560" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

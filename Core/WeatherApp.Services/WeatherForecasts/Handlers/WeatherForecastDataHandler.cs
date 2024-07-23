@@ -38,7 +38,7 @@ public class WeatherForecastDataHandler
         var restRequest = new RestRequestDto
         {
             Url = Url,
-            TimeoutSeconds = 3
+            TimeoutSeconds = 2
         };
 
         return await _restService.GetAsync<WeatherDto>(restRequest);
